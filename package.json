@@ -1,0 +1,29 @@
+{
+  "name": "yourapp",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "parcel views/index.pug",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/project-calavera/express-skeleton"
+  },
+  "keywords": [
+    "expressjs",
+    "nodejs",
+    "template"
+  ],
+  "author": "Schalk Neethling",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "1.12.3"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "pug": "2.0.4"
+  }
+}
