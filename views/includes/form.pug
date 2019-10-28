@@ -1,0 +1,43 @@
+<form id="contact-us" class="contact-us" name="contact-us" action="/contact" method="post" novalidate>
+  <fieldset>
+    <legend>Personal details</legend>
+
+    <div class="field-container">
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" required />
+      <div id="title-error" class="notification warning hidden"></div>
+    </div>
+
+    <div class="field-container-group">
+      <label for="surname">Surname:</label>
+      <input type="text" id="surname" name="surname" required />
+      <div id="surname-error" class="notification warning hidden"></div>
+    </div>
+
+    <div class="field-container">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      <div id="name-error" class="notification warning hidden"></div>
+    </div>
+
+    <div class="field-container">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" />
+      <div id="email-error" class="notification warning hidden"></div>
+    </div>
+
+    <div class="field-container">
+      <label for="contact-number">Contact number:</label>
+      <input type="tel" id="contact-number" name="contactNumber" />
+      <div id="contactNumber-error" class="notification warning hidden"></div>
+    </div>
+
+    <div class="field-container">
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" cols="50" rows="5" required></textarea>
+      <div id="address-error" class="notification warning hidden"></div>
+    </div>
+  </fieldset>
+
+  <input type="submit" class="form-submit" />
+</form>

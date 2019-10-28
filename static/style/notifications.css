@@ -1,0 +1,31 @@
+.notification {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid #333;
+  border-bottom-left-radius: 4px;
+  max-width: max-content;
+}
+
+.error {
+  background-color: #de2d26;
+  color: #fff;
+  border-color: #a50f15;
+}
+
+.warning {
+  background-color: #f5ec8b;
+  color: #333;
+  border-color: #fcba06;
+}
+
+.neutral {
+  background-color: #bdd7e7;
+  color: #333;
+  border-color: #08519c;
+}
+
+.success {
+  background-color: #82d78c;
+  color: #333;
+  border-color: #5f820a;
+}

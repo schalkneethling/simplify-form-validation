@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "build": "parcel views/index.pug",
-    "start": "node app.js",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +20,7 @@
   "author": "Schalk Neethling",
   "license": "MIT",
   "devDependencies": {
+    "nodemon": "1.19.4",
     "parcel-bundler": "1.12.3"
   },
   "dependencies": {

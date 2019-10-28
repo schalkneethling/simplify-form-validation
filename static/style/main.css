@@ -1,0 +1,38 @@
+body {
+  font: 16px/1.5 sans-serif;
+}
+
+.contact-us fieldset {
+  padding-left: 40px;
+  border: 0;
+}
+
+.contact-us legend {
+  margin-bottom: 20px;
+  margin-left: -20px;
+  font-size: 2rem;
+}
+
+.contact-us label {
+  display: block;
+}
+
+.contact-us input,
+.contact-us textarea {
+  margin-bottom: 20px;
+}
+
+.contact-us input {
+  padding: 5px 10px;
+  min-width: 200px;
+}
+
+.contact-us input[type="submit"] {
+  margin-left: 40px;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+.hidden {
+  display: none;
+}
